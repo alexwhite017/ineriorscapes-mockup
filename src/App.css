@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+
+
+
+@font-face {
+  font-family: sherwood;
+  src: url(./assets/fonts/SHERWOOD.TTF);
+}
+
+@theme {
+  --color-interior: #E2B353;
+  --color-exterior: #2C984D;
+  --color-florals: #FE6F2A;
+  --color-walls: #64B0B6;
+  --color-holiday: #E15535;
+  --color-soft-green: #ADD161;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-noto: 'Noto Sans', sans-serif;
+}
+
+
+
+
+* { 
+  font-family:  Noto Sans, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins, sans-serif;
+}
+a {
+  font-family: Poppins, sans-serif;
+}
+
+h2 {
+  @apply font-bold;
+}
+
+h3 {
+  @apply font-bold;
+}
