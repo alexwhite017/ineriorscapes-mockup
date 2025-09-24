@@ -2,7 +2,7 @@ import InteriorCard from "./InteriorCard";
 import InteriorImage1 from "../../assets/Art/2-1.jpeg";
 import InteriorImage2 from "../../assets/Art/51027730571_37be3837e3_b.jpeg";
 import InteriorImage3 from "../../assets/Art/idtPtCDXoP-WgAAAAAAAKzRQ_w1024h768_c0.jpeg";
-import InteriorImage4 from "../../assets/Art/color rotation.jpg";
+import InteriorImage4 from "../../assets/Art/color-rotation.jpg";
 import InteriorImage5 from "../../assets/Art/46782710775_f5b3f685a1_b.jpeg";
 
 const InteriorDisplay = () => { 

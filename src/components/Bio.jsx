@@ -1,5 +1,5 @@
 import Button from "./Button";
-import logo from "../assets/Interiorscapes Submark.svg";
+import logo from "../assets/Interiorscapes-Submark.svg";
 
 const Bio = (props) => {
 
