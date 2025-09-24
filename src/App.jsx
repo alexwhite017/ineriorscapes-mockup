@@ -1,5 +1,4 @@
 import './App.css'
-import Button from './components/button.jsx'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import Testimonials from './components/Testimonials.jsx'
