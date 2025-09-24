@@ -1,8 +1,8 @@
-import spire from "../assets/art/spire_inc_logo.svg";
+import spire from "../assets/Art/spire_inc_logo.svg";
 import protective from "../assets/art/protective_life_logo.svg";
-import gbcvb from "../assets/art/Gbcvb-logo.svg";
-import southern from "../assets/art/southern_company_logo_new.svg";
-import regions from "../assets/art/regions-financial-logo.svg";
+import gbcvb from "../assets/Art/Gbcvb-logo.svg";
+import southern from "../assets/Art/southern_company_logo_new.svg";
+import regions from "../assets/Art/regions-financial-logo.svg";
 
 
 const Sponsors = () => {
