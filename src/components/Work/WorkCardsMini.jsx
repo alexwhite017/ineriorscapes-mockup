@@ -1,4 +1,4 @@
-import Button from "../button.jsx";
+import Button from "../Button";
 const WorkCardsMini = (props) => {
     return (
         <div className="work-card-mini flex flex-col justify-center items-center text-center">
