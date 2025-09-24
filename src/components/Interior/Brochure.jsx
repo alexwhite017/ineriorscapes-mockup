@@ -1,5 +1,4 @@
-import Button from "src/components/Button.jsx";
-
+import Button from "../Button";
 const Brochure = () => {
     return (
         <section>
