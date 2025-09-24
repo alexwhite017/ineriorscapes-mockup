@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Testimonials from "./components/Testimonials";
 import Timeline from "./components/Timeline";
 import WorkMini from "./components/Work/WorkMini";
+import Image from "./assets/Art/48284911096_59424a7ee0_b.jpeg";
 
 const Exterior = () => {
     return (
@@ -14,7 +15,7 @@ const Exterior = () => {
                 <Header />
             </header>
             <main>
-                <Hero image="src/assets/Art/48284911096_59424a7ee0_b.jpeg" color="bg-exterior" text="Exteriors"/>
+                <Hero image={Image} color="bg-exterior" text="Exteriors"/>
 
                 <Bio 
                     id="exterior"

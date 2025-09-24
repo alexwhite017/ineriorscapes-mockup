@@ -6,6 +6,7 @@ import Testimonials from "./components/Testimonials";
 import Timeline from "./components/Timeline";
 import WorkMini from "./components/Work/WorkMini";
 import ReactImageGallery from "react-image-gallery";
+import Image from "./assets/Art/48284911096_59424a7ee0_b.jpeg";
 
 const Walls = () => {
 
@@ -22,7 +23,7 @@ const Walls = () => {
                 <Header />
             </header>
             <main>
-                <Hero image="src/assets/Art/48284911096_59424a7ee0_b.jpeg" color="bg-walls" text="Living Walls"/>
+                <Hero image={Image} color="bg-walls" text="Living Walls"/>
 
                 <Bio 
                     id="living-walls"

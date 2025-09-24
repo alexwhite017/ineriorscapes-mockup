@@ -8,6 +8,7 @@ import Work from './components/Work/Work.jsx'
 import Hero from './components/Hero.jsx'
 import Timeline from './components/Timeline.jsx'
 import "react-image-gallery/styles/css/image-gallery.css";
+import Image from "./assets/Art/51023056273_b7feb719b6_b.jpeg";
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
         </header>
 
         <main >
-          <Hero image="src/assets/Art/51023056273_b7feb719b6_b.jpeg" color="bg-florals" text="Ground breaking plant design." />
+          <Hero image={Image} color="bg-florals" text="Ground breaking plant design." />
 
           <Bio
               id="home"

@@ -1,5 +1,7 @@
 import { Page } from "react-facebook";
 import Button from "./Button";
+import logo from "../assets/logo.svg";
+import background from "../assets/Art/topograph.jpg";
 
 const Timeline = () => {
 
@@ -7,7 +9,7 @@ const Timeline = () => {
         <div className="flex flex-col md:grid grid-cols-3">
             <div className="contact-us p-5 bg-gray-200 flex justify-center items-center text-left flex-col font-extralight">
                 <div className="max-w-[400px] px-3">
-                    <img className="w-3/4 m-auto sm:w-full md:w-3/4 lg:w-full" src="src/assets/logo.svg" alt="" />
+                    <img className="w-3/4 m-auto sm:w-full md:w-3/4 lg:w-full" src={logo} alt="Interiorscapes Logo" />
                     <p className="pb-6 text-sm sm:text-base md:text-sm lg:text-base">Keeping your company green and beautiful has been our business and passion for more than 40 years.</p>
                     <span className="italic text-sm sm:text-base md:text-sm lg:text-base"><i className="fa-solid fa-phone"></i> (205) 942-7175</span>
                     <br />
@@ -27,7 +29,7 @@ const Timeline = () => {
                 </div>
             </div>
             <div className="relative timeline h-100 md:h-auto " >
-                <div className="absolute inset-0 z-0 opacity-30" style={{backgroundImage: "url('src/assets/Art/topograph.jpg')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                <div className="absolute inset-0 z-0 opacity-30" style={{backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
                 </div>
                 <div className="bg-[#D9EED9] h-full w-full">
                 </div>

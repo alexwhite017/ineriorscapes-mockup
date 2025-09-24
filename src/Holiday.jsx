@@ -5,6 +5,10 @@ import Hero from "./components/Hero";
 import Testimonials from "./components/Testimonials";
 import Timeline from "./components/Timeline";
 import WorkMini from "./components/Work/WorkMini";
+import Image from"./assets/Art/51020694836_897b8db88a_b.jpeg";
+import Image2 from "./assets/Art/00007375-5502-4ACD-9327-C15446A7CAEC_1_105_c.jpeg";
+import Image3 from "./assets/Art/261886CE-EA27-416C-BF05-6D5FFB118FE7-1-782x1024.jpeg";
+import Image4 from "./assets/Art/F0DD6E80-4439-4BC8-B232-9B56347C4460_1_105_c.jpeg";
 
 const Holiday = () => {
     return (
@@ -13,7 +17,7 @@ const Holiday = () => {
                 <Header />
             </header>
             <main>
-                <Hero image="src/assets/Art/51020694836_897b8db88a_b.jpeg" color="bg-holiday" text="Holidays"/>
+                <Hero image={Image} color="bg-holiday" text="Holidays"/>
 
                 <Bio 
                     id="home"
@@ -30,19 +34,19 @@ const Holiday = () => {
                     <h2 className="text-center my-10">Holiday Decor Services</h2>
                     <div className="flex flex-wrap gap-20 justify-center items-center mb-20 mx-10">
                     <div className=" bg-soft-green rounded-3xl p-10 max-w-3xl">
-                        <img src="src/assets/Art/00007375-5502-4ACD-9327-C15446A7CAEC_1_105_c.jpeg" alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
+                        <img src={Image2} alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
                         <h3 className="text-center mt-10">Custom Design</h3>
                         <p className="max-w-2xl text-center items-center justify-center m-auto">Just like our plant services, our holiday designs are fully customized to meet the unique needs and preferences of our clients. Our designers prioritize budget, taste, and functionality to create a unique look for each space. We use only the highest quality decorations, plants, flowers, and trees to ensure exceptional results.</p>
                     </div>
 
                     <div className=" bg-walls rounded-3xl p-10 max-w-3xl">
-                        <img src="src/assets/Art/261886CE-EA27-416C-BF05-6D5FFB118FE7-1-782x1024.jpeg" alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
+                        <img src={Image3} alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
                         <h3 className="text-center mt-10">On-site Professional Installation and Takedown</h3>
                         <p className="max-w-2xl text-center items-center justify-center m-auto">Our professional installation team, donned in Interiorscapes apparel, respects the rules of the facility and ensures a clean environment by vacuuming and sweeping after completing the installation.</p>
                     </div>
 
                     <div className=" bg-holiday rounded-3xl p-10 max-w-3xl">
-                        <img src="src/assets/Art/F0DD6E80-4439-4BC8-B232-9B56347C4460_1_105_c.jpeg" alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
+                        <img src={Image4} alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
                         <h3 className="text-center mt-10">Secure, Off-site Holiday Decoration Storage</h3>
                         <p className="max-w-2xl items-center justify-center m-auto text-left">At the end of each season, our dedicated staff carefully removes and stores the holiday decor in our secure facility. Whether you wish to recreate the same look or desire something new for the following year, we have everything readily available, ensuring a seamless transition when the season comes around again. Your holiday decorations will be in safe hands, ready to be brought back to life when the next holiday season rolls around.</p>
                     </div>

@@ -1,4 +1,7 @@
 import ExteriorServicesCards from "./ExteriorServicesCards";
+import Image1 from "../../assets/Art/IMG_0855-1536x934.jpeg";
+import Image2 from "../../assets/Art/ross-bridge-fountain-e1679507266315.jpg";
+import Image3 from "../../assets/Art/AC314CC6-636E-4C92-9E8F-0932CBD2C4B7_1_201_a.jpeg";
 
 const ExteriorServices = () => {
     return (
@@ -12,19 +15,19 @@ const ExteriorServices = () => {
                 </div> */}
                 <div className="flex flex-wrap gap-20 justify-center items-center mb-20 mx-10">
                     <div className=" bg-soft-green rounded-3xl p-10 max-w-3xl">
-                        <img src="src/assets/Art/IMG_0855-1536x934.jpeg" alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
+                        <img src={Image1} alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
                         <h3 className="text-center mt-10">Seasonal Color Beds and Color Bowls</h3>
                         <p className="max-w-2xl text-center items-center justify-center m-auto">Our professional horticulturists create a custom seasonal plan and design custom plant beds and/or color bowls with careful consideration given to the light, soil and placement of each plant.</p>
                     </div>
 
                     <div className=" bg-walls rounded-3xl p-10 max-w-3xl">
-                        <img src="src/assets/Art/ross-bridge-fountain-e1679507266315.jpg" alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
+                        <img src={Image2} alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
                         <h3 className="text-center mt-10">Seasonal Plant Bed and Color Bowl Maintenance</h3>
                         <p className="max-w-2xl text-center items-center justify-center m-auto">This includes watering, pest control, pruning, deadheading and fertilization. Our plant maintenance crew comes to your property twice per week during the spring and summer seasons, as needed in the fall and once during the winter. We make sure your color beds and bowls continue to look as stunning as the first day they were planted.</p>
                     </div>
 
                     <div className=" bg-holiday rounded-3xl p-10 max-w-3xl">
-                        <img src="src/assets/Art/AC314CC6-636E-4C92-9E8F-0932CBD2C4B7_1_201_a.jpeg" alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
+                        <img src={Image3} alt="" className="rounded-3xl aspect-16/9 w-full m-auto object-cover" />
                         <h3 className="text-center mt-10">Turf Management and Tree / Shrub Care</h3>
                         <p className="max-w-2xl items-center justify-center m-auto text-left"><strong>Turf Management: </strong>This service includes mowing, edging, weed control and fertilization of grassy areas in your landscape. We want to keep your grass looking green and pristine all season. <br />
                             <strong>Tree and Shrub Care: </strong>This service includes fertilization, pruning, shaping and pest control. We make sure trees and shrubs are properly cared for according to their unique season cycles.</p>

@@ -1,37 +1,43 @@
 import InteriorCard from "./InteriorCard";
+import InteriorImage1 from "../../assets/Art/2-1.jpeg";
+import InteriorImage2 from "../../assets/Art/51027730571_37be3837e3_b.jpeg";
+import InteriorImage3 from "../../assets/Art/idtPtCDXoP-WgAAAAAAAKzRQ_w1024h768_c0.jpeg";
+import InteriorImage4 from "../../assets/Art/color rotation.jpg";
+import InteriorImage5 from "../../assets/Art/46782710775_f5b3f685a1_b.jpeg";
+
 const InteriorDisplay = () => { 
     return (
          <section className="interiorDisplay max-w-6xl mx-auto my-20">
                         <h2 className="font-bold text-2xl text-center">Standard Interior Plant Services</h2>
                         <div className=" md:grid md:grid-cols-2 md:gap-20 mt-10">
-                            <InteriorCard 
-                                image="src/assets/Art/2-1.jpeg"
+                            <InteriorCard
+                                image={InteriorImage1}
                                 title="Plantscape Design, Delivery & Installation"
                                 description="Everything we do is completely tailored to your unique space and desires"
                             /> 
 
                             <InteriorCard
-                                image="src/assets/Art/51027730571_37be3837e3_b.jpeg"
+                                image={InteriorImage2}
                                 title="Plant Replacement Guarantee"
                                 description="We guarantee your plants will look their best, and will replace ones that fall short at no charge to you"
                             />
 
                             <InteriorCard
-                                image="src/assets/Art/idtPtCDXoP-WgAAAAAAAKzRQ_w1024h768_c0.jpeg"
+                                image={InteriorImage3}
                                 title="Interior Plant Maintenance"
                                 description="This includes but is not limited to watering, pruning, fertilization, pest control and cleaning of plants and planters. our maintenance crew comes to your space either weekly or bi-weekly.
                                             We want your plants to always look their best."
                             />
 
                             <InteriorCard
-                                image="src/assets/Art/color%20rotation.jpg"
+                                image={InteriorImage4}
                                 title="Color Rotation"
                                 description="In addition to regular plant maintenance, we can design, deliver and install a rotation of seasonal blooming plants and unique botanicals six times per year. This keeps your interior spaces looking new and different for each season."
                             />
                         </div>
                         <h2 className="font-bold text-2xl text-center my-10">Additional Interior Plant Services</h2>
                         <div className="mx-5 md:mx-10">
-                            <img className="rounded-3xl aspect-16/9 m-auto" src="src/assets/Art/46782710775_f5b3f685a1_b.jpeg" alt="" />
+                            <img className="rounded-3xl aspect-16/9 m-auto" src={InteriorImage5} alt="" />
                             <div className="flex flex-col md:grid md:grid-cols-2 gap-10 md:gap-20 mt-10 mx-2 text-center text-sm md:text-base">
                                 <p><strong>Living Walls:</strong> A living wall (or green wall) is a vertical planting that can exist either inside or outdoors. Interiorscapes is delighted to have the experience and expertise to offer living wall
                                     consultation, design, installation and maintenance. View some of our favorite living walls.</p>

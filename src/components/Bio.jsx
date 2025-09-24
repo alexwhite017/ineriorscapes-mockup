@@ -1,4 +1,5 @@
 import Button from "./Button";
+import logo from "../assets/Interiorscapes Submark.svg";
 
 const Bio = (props) => {
 
@@ -7,7 +8,7 @@ const Bio = (props) => {
     return(
         <section className="bio bg-[#D9EED9]">
             <div className={`flex justify-center items-center mx-auto top-[-20px] h-[40px] w-[40px] relative ${props.iconColor} rounded-full md:top-[-25px] md:h-[50px] md:w-[50px]`}>
-               <img className="h-9 w-9" src="src/assets/Interiorscapes%20Submark.svg" alt="" />  
+               <img className="h-9 w-9" src={logo} alt="" />
             </div>
    
             <div className=" mx-10 xl:mx-auto pb-20 space-y-10 xl:max-w-6xl">
@@ -27,7 +28,7 @@ const Bio = (props) => {
   return (
     <section className="bio bg-[#D9EED9]">
             <div className={`flex justify-center items-center mx-auto top-[-20px] h-[40px] w-[40px] relative ${props.iconColor} rounded-full md:top-[-25px] md:h-[50px] md:w-[50px]`}>
-               <img className="h-9 w-9" src="src/assets/Interiorscapes%20Submark.svg" alt="" />  
+               <img className="h-9 w-9" src={logo} alt="" />
             </div>
    
             <div className=" mx-10 xl:mx-auto pb-20 space-y-10 xl:max-w-6xl">

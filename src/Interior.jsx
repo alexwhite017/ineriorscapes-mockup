@@ -7,6 +7,7 @@ import Bio from "./components/Bio";
 import InteriorDisplay from "./components/Interior/InteriorDisplay";
 import WorkMini from "./components/Work/WorkMini";
 import Brochure from "./components/Interior/Brochure";
+import Image from "./assets/Art/51023885522_59099b31e0_b.jpeg";
 const Interior = () => {
     return (
         <>
@@ -15,7 +16,7 @@ const Interior = () => {
                     <Header />
                 </header>
                 <main>
-                    <Hero image="src/assets/Art/51023885522_59099b31e0_b.jpeg" color="bg-interior" text="Interiors"/>
+                    <Hero image={Image} color="bg-interior" text="Interiors"/>
 
                     <Bio
                       id="interior"
