@@ -1,5 +1,5 @@
 import spire from "../assets/Art/Spire_Inc_logo.svg";
-import protective from "../assets/Art/Protective_Life_Logo.svg";
+import protective from "../assets/Art/Protective_Life_logo.svg";
 import gbcvb from "../assets/Art/gbcvb-logo.svg";
 import southern from "../assets/Art/Southern_Company_logo_new.svg";
 import regions from "../assets/Art/Regions-Financial-Logo.svg";
