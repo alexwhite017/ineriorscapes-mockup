@@ -5,7 +5,6 @@ import Testimonials from "./components/Testimonials";
 import Timeline from "./components/Timeline";
 import Bio from "./components/Bio";
 import InteriorDisplay from "./components/Interior/InteriorDisplay";
-import Button from "./components/button";
 import WorkMini from "./components/Work/WorkMini";
 import Brochure from "./components/Interior/Brochure";
 const Interior = () => {

@@ -1,4 +1,4 @@
-import { EmbeddedPost, Page } from "react-facebook";
+import { Page } from "react-facebook";
 import Button from "./button";
 
 const Timeline = () => {
