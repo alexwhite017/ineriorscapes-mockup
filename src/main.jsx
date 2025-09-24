@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')).render(
     <FacebookProvider appId="1517286653052212">
     <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="/interior" element={<Interior />} />
         <Route path="/exterior" element={<Exterior />} />
         <Route path="/florals-events" element={<Florals />} />

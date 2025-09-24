@@ -35,7 +35,7 @@ const DropdownMenu = (props) => {
         <div className="absolute bg-[#435125] w-full left-0 rounded-b-md top-[77px]">
             <ul className="">
                
-                <Link to="/Home" className={` py-4 rounded  text-white font-semibold `}
+                <Link to="/" className={` py-4 rounded  text-white font-semibold `}
                     onClick={() => {
                     window.scroll(0, 0);
                     }}><li className="text-center mx-4 py-2 border-b hover:bg-[#567635]">Home</li></Link>

@@ -1,4 +1,4 @@
-import Button from "../button";
+import Button from "src/components/Button.jsx";
 
 const Brochure = () => {
     return (
