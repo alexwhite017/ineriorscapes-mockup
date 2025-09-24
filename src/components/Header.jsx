@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import Button from "./button.jsx";
+import Button from "./Button.jsx";
 import { useState } from "react";
 import DropdownMenu from "./DropdownMenu.jsx";
 

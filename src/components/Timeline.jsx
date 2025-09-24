@@ -1,5 +1,5 @@
 import { Page } from "react-facebook";
-import Button from "./button";
+import Button from "./Button";
 
 const Timeline = () => {
 
